@@ -1,0 +1,247 @@
+/*Media Only*////////////////////////////////////////
+
+// general
+@media only screen 
+and (max-width :768px) {
+	.gutter {
+		grid-gap: 2rem !important;
+		gap: 2rem !important;
+ }
+}
+@media (min-width: 768px) {
+	.flex_container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+@media (max-width: 1300px) {
+	.vertical_align {
+		display: inline-block;
+		}
+	}
+// left & right padding
+@media only screen 
+and (max-width :768px) {
+	.pt-sides-6 {
+		padding-left: 1em !important;
+		padding-right: 1em !important;
+ }
+}
+
+@media only screen 
+and (max-width :768px) {
+	.pt-sides-7 {
+		padding-left: 1em !important;
+		padding-right: 1em !important;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.pt-sides-8 {
+		padding: 0em 1em 0em 1em;
+ }
+}
+
+@media only screen 
+and (max-width :768px) {
+	.pt-sides-3 {
+		padding-left: 1em !important;
+		padding-right: 1em !important;
+	}
+}
+
+// top & bottom padding
+
+@media only screen 
+and (max-width :768px) {
+	.pt-3 {
+		padding-top: 2em !important;
+	}
+}
+@media only screen 
+and (max-width :768px) {
+	.pb-3 {
+		padding-bottom: 2em !important;
+	}
+}
+@media only screen 
+and (max-width :768px) {
+	.pt-4 {
+		padding-top: 2em !important;
+	}
+}
+@media only screen 
+and (max-width :768px) {
+	.pb-4 {
+		padding-bottom: 2em !important;
+	}
+}
+
+@media (max-width: 768px) {
+	h2 {
+	   font-size: 1em !important;
+	}
+}
+
+// home
+@media only screen 
+and (max-width :768px) {
+.intro h1 {
+	font-size: 2.5em;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.portfolio_nav ul {
+		display: block !important;
+		justify-content: left !important;
+		padding-left:0;
+	}
+}
+
+// smalls
+@media only screen 
+and (max-width :768px) {
+	.mission .gutter {
+		grid-gap: 1rem !important;
+		gap: 1rem !important;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.smalls .pb-3 {
+		padding-bottom:1em !important;
+	}
+}
+
+// draycott
+@media only screen 
+and (max-width :768px) {
+	.draycott .small-text {
+		font-size: .7em;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.custom_bullet li {
+		font-size: .7em;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.draycott h3 {
+		font-size: 18px;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.draycott .text_box  {
+		font-size: 1em;
+ }
+}
+// about / contact
+@media only screen 
+and (max-width :768px) {
+	.external-links ul li {
+		font-size: 1.2em !important;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.about .offset-1 {
+		margin-left: 0;
+ }
+}
+@media only screen 
+and (max-width :768px) {
+	.contact .offset-2 {
+		margin-left: 0;
+ 	}
+}
+
+// bundle
+@media (max-width: 768px) {
+	.bundle {
+		p {
+			font-size: .7em !important;
+		} 
+		.bundle_body {
+			padding: 3% 0 ;
+		}
+		.mission {
+			padding: 3% 0%  !important;
+		}
+		.logo_stack {
+			text-align: center;
+			.img-responsive {
+				max-width: 40% !important;
+				margin: auto;
+			}
+		}
+		.logo_concept	{
+			.pt-sides-6 {
+				padding: 0% !important;
+			}
+		}
+		.color_bars .pt-sides-6 {
+			padding: 0% !important;
+		}
+	}
+}
+//GRID////////////////////////////////////
+@media (min-width: 1024px) {
+	.lg\:pl-32 {
+	    padding-left: 8rem !important;
+	}
+}
+@media (min-width: 1024px) {
+	.lg\:col-span-7 {
+	    grid-column: span 7 / span 7 !important;
+	}
+}
+@media (min-width: 1024px) {
+	.lg\:col-span-6 {
+	    grid-column: span 6 / span 6 !important;
+	}
+}
+@media (min-width: 1024px) {
+	.lg\:col-span-5 {
+	    grid-column: span 5 / span 5 !important;
+	}
+}
+@media (min-width: 1024px) {
+	.lg\:pl-32 {
+	    padding-left: 8rem !important;
+	}
+}
+@media (min-width: 1024px) {
+	.lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+	}	
+}
+@media (min-width: 1024px) {
+	.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+	}	
+}
+@media (min-width: 768px) {
+	.md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 2fr)) !important;
+	}
+}
+@media (min-width: 768px) {
+	.md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 3fr)) !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.sm\:grid-cols-1 {
+    grid-template-columns: repeat(2, minmax(0, 2fr)) !important;
+	}
+}
+@media (min-width: 1024px) {
+	.lg\:grid-cols-12 {
+	    grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
+	}
+}
