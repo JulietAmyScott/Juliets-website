@@ -495,8 +495,27 @@ a {
 .background_gray {
 	background-color: $graylight;
 }
-
-
+/*friends*/
+.flower-decoration {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+.three-col-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .three-col-grid {
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+}
+.three-col-grid > :first-child,
+.three-col-grid > :last-child {
+  display: flex;
+  justify-content: center;
+}
 /*smalls*/
 .smalls_brown {
 	background-color: $brown;

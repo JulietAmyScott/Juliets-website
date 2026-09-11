@@ -211,7 +211,7 @@ a:hover {
 
 .menu-overlay ul li {
   margin: 15px 0;
-  font-size: 21em;
+  font-size: 2em;
 }
 
 .menu-overlay ul li a {
@@ -283,7 +283,7 @@ a:hover {
 }
 .portfolio_nav ul li {
   padding-right: 10%;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 .portfolio_nav ul li:last-child {
   padding-right: 0%;
@@ -501,6 +501,30 @@ a:hover {
 
 .background_gray {
   background-color: #cccccc;
+}
+
+/*friends*/
+.flower-decoration {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+.three-col-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .three-col-grid {
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+}
+.three-col-grid > :first-child,
+.three-col-grid > :last-child {
+  display: flex;
+  justify-content: center;
 }
 
 /*smalls*/
